@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  background: tomato;
+}
+
+.roulette {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wheel img {
+  transition: transform 10s cubic-bezier(0.3, 1, 0.7, 1),
+    10s filter cubic-bezier(0.1, 1, 0.8, 1),
+    10s -webkit-filter cubic-bezier(0.1, 1, 0.8, 1);
+  will-change: transform;
+  border-radius: 50%;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 600px;
+  border: 4px dashed rgba(255, 255, 255, .5);
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -100px);
+  z-index: 20;
+  border-radius: 0.35em;
+}
+
+.arrow:after {}
+
+
+.spin {
+  cursor: crosshair;
+}
+
+.lead {
+  position: absolute;
+  top: 250px;
+  color: aliceblue;
+  left: 545px;
+  font-size: 75px;
+  font-weight: 500;
+  font-family: 'Casino', sans-serif;
+  font-family: 'Casino 3D', sans-serif;
+  font-family: 'Casino 3D Filled', sans-serif;
+  font-family: 'Casino 3D Filled Marquee', sans-serif;
+  font-family: 'Casino 3D Lines', sans-serif;
+  font-family: 'Casino 3D Lines Marquee', sans-serif;
+  font-family: 'Casino 3D Marquee', sans-serif;
+  font-family: 'Casino Flat', sans-serif;
+  font-family: 'Casino Flat Shadow', sans-serif;
+  font-family: 'Casino Shadow', sans-serif;
+}
+
+.down {
+  position: absolute;
+  z-index: 10;
+  top: 125px;
+  left: 595px;
+  background: #ffffff;
+  height: calc(tan(60deg) * 60px / 2);
+  width: 60px;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.Value {
+  position: absolute;
+  top: 650px;
+  left: 500px;
+  display: flex;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Casino', sans-serif;
+  font-family: 'Casino 3D', sans-serif;
+  font-family: 'Casino 3D Filled', sans-serif;
+  font-family: 'Casino 3D Filled Marquee', sans-serif;
+  font-family: 'Casino 3D Lines', sans-serif;
+  font-family: 'Casino 3D Lines Marquee', sans-serif;
+  font-family: 'Casino 3D Marquee', sans-serif;
+  font-family: 'Casino Flat', sans-serif;
+  font-family: 'Casino Flat Shadow', sans-serif;
+  font-family: 'Casino Shadow', sans-serif;
+}
+
+.result {
+  position: absolute;
+  top: 650px;
+  left: 100px;
+  display: flex;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Casino', sans-serif;
+  font-family: 'Casino 3D', sans-serif;
+  font-family: 'Casino 3D Filled', sans-serif;
+  font-family: 'Casino 3D Filled Marquee', sans-serif;
+  font-family: 'Casino 3D Lines', sans-serif;
+  font-family: 'Casino 3D Lines Marquee', sans-serif;
+  font-family: 'Casino 3D Marquee', sans-serif;
+  font-family: 'Casino Flat', sans-serif;
+  font-family: 'Casino Flat Shadow', sans-serif;
+  font-family: 'Casino Shadow', sans-serif;
+}
+
+.chip-count {
+  position: absolute;
+  top: 800px;
+  left: 30px;
+  display: flex;
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Casino', sans-serif;
+  font-family: 'Casino 3D', sans-serif;
+  font-family: 'Casino 3D Filled', sans-serif;
+  font-family: 'Casino 3D Filled Marquee', sans-serif;
+  font-family: 'Casino 3D Lines', sans-serif;
+  font-family: 'Casino 3D Lines Marquee', sans-serif;
+  font-family: 'Casino 3D Marquee', sans-serif;
+  font-family: 'Casino Flat', sans-serif;
+  font-family: 'Casino Flat Shadow', sans-serif;
+  font-family: 'Casino Shadow', sans-serif;
+}

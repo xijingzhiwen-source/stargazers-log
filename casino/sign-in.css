@@ -1,0 +1,61 @@
+form {
+    border: 3px rgb(205, 201, 201) solid;
+    border-radius: 10px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-shadow: 0 10px 10px rgb(167, 163, 163);
+}
+
+
+.registerBtn {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.register {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-align: center;
+    width: 100px;
+
+}
+
+.emailBox,
+.usernameBox,
+.passwordBox {
+    display: block;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.form-control {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.col-form-label {
+    width: 500px;
+}
+
+.emailBox {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.alert,
+.email {
+    margin-left: 200px;
+}
+
+.emailWrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
